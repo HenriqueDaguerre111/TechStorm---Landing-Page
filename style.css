@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #010326;
+  border-bottom: 10px solid #F25C05;
+  box-shadow: 10px 30px 100px 10px rgba(0, 0, 0, 0.178);
+  z-index: 100000;
+}
+header a {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 16px;
+  border-bottom: 5px solid #fff;
+  transition: padding-bottom 0.3s ease;
+}
+header a:hover {
+  padding-bottom: 2px;
+  padding-top: 2px;
+  text-decoration: none;
+}
+header .title {
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
+}
+
+.text {
+  font-family: "Share Tech", sans-serif;
+}
+
+.image img {
+  width: 700px;
+}
+
+.about-container {
+  background-color: #f0f0f0; /* Cor do background (substitua pela cor desejada) */
+  width: 100%;
+  position: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */
